@@ -1,22 +1,23 @@
 <template>
-    <header>
-        <h1>
-            <router-link to="/coaches">Find a Reviewer</router-link>
-        </h1>
-
-        <ul>
-            <li>
-                <router-link to="/coaches">All Reviewers</router-link>
-            </li>
-            <li>
-                <router-link to="/requests">Requests</router-link>
-            </li>
-        </ul>
-    </header>
+  <header>
+    <nav>
+      <h1>
+        <router-link to="/">Find a Coach</router-link>
+      </h1>
+      <ul>
+        <li>
+          <router-link to="/coaches">All Coaches</router-link>
+        </li>
+        <li>
+          <router-link to="/requests">Requests</router-link>
+        </li>
+      </ul>
+    </nav>
+  </header>
 </template>
 
 <style scoped>
-    header {
+header {
   width: 100%;
   height: 5rem;
   background-color: #3d008d;
